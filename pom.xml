@@ -21,6 +21,7 @@
     <modules>
         <module>message-receiver</module>
         <module>message-rest-api</module>
+        <module>reactive-upper-case-transformer</module>
     </modules>
 
     <properties>

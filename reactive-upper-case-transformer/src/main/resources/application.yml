@@ -1,8 +1,10 @@
 server:
-  port: 8081
+  port: 8082
 spring:
   cloud:
     stream:
       bindings:
         input:
+          destination: transform-messages
+        output:
           destination: transformed-messages

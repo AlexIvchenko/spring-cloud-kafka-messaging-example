@@ -5,4 +5,4 @@ spring:
     stream:
       bindings:
         output:
-          destination: messages
+          destination: transform-messages
